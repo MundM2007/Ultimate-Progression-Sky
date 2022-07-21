@@ -1,0 +1,11 @@
+{
+    "name": "Gravel (Iron Mesh)",
+    "icon": "minecraft:gravel",
+    "category": "patchouli:iron_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Gravel and using the Iron Mesh will output:$(br)-Copper Piece: 0.2$(br)-Flint: 0.2$(br)-Aluminum Piece: 0.15$(br)-Iron Piece: 0.15$(br)-Tin Piece: 0.1$(br)-Zinc Piece: 0.1$(br)-Nickel Piece: 0.08$(br)-Silver Piece: 0.06$(br)-Gold Piece: 0.05$(br)-Osmium Piece: 0.05$(br)-Uranium Piece: 0.04"
+        }
+    ]
+}

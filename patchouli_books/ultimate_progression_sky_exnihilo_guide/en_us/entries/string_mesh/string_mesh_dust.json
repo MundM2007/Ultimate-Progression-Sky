@@ -1,0 +1,11 @@
+{
+    "name": "Dust (String Mesh)",
+    "icon": "exnihilosequentia:dust",
+    "category": "patchouli:string_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Dust and using the String Mesh will output:$(br)-Bone Meal: 0.15$(br)-Redstone: 0.1"
+        }
+    ]
+}

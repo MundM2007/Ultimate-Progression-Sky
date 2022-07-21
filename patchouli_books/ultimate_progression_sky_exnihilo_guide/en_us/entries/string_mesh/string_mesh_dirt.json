@@ -1,0 +1,19 @@
+{
+    "name": "Dirt (String Mesh)",
+    "icon": "minecraft:dirt",
+    "category": "patchouli:string_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Dirt and using the String Mesh will output:$(br)-Stone Pebble: 0.9$(br)-Andesite Pebble: 0.05$(br)-Basalt Pebble: 0.05$(br)-Blackstone Pebble: 0.05$(br)-Diorite Pebble: 0.05$(br)-Granite Pebble: 0.05$(br)-Wheat Seeds: 0.2$(br)-Ancient Spores: 0.05$(br)-Carrot Seeds: 0.05$(br)-Melon Seeds: 0.05$(br)-Potato Seeds: 0.05$(br)-Pumkin Seeds: 0.05"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br)$(br)$(br)-Sweet Berry Seeds: 0.04$(br)-Cactus Seeds: 0.04$(br)-Cocoa Beans: 0.04$(br)-Sugarcane Seeds: 0.04$(br)-Acacia Seed: 0.03$(br)-Bamboo Seed: 0.03$(br)-Beetroot Seeds: 0.03$(br)-Brich Seed: 0.03$(br)-Dark Oak Seed: 0.03$(br)-Grass Seeds: 0.03$(br)-Jungle Seed: 0.03$(br)-Oak Seed: 0.03$(br)-Spruce Seed: 0.03$(br)-Vines: 0.03"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br)$(br)$(br)-Fern Seed: 0.01$(br)-Large Fern Seed: 0.01"
+        }
+    ]
+}

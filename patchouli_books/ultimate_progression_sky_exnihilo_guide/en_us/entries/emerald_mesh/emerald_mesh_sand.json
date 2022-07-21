@@ -1,0 +1,15 @@
+{
+    "name": "Sand (Emerald Mesh)",
+    "icon": "minecraft:sand",
+    "category": "patchouli:emerald_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Sand and using the Emerald Mesh will output:$(br)-Coal: 0.15, 0.075$(br)-Apatite: 0.1, 0.05$(br)-Cinnabar: 0.1, 0.05$(br)-Potassium Nitrate: 0.1, 0.05$(br)-Lapis Lazuli: 0.075, 0.0375$(br)-Prosperity Shard: 0.05, 0.025$(br)-Salt: 0.05, 0.025$(br)-Sulfur: 0.05, 0.025$(br)-Uraninite: 0.05, 0.025$(br)-Diamond: 0.03, 0.015$(br)-Fluorite: 0.03$(br)-Prismarine Shard: 0.03, 0.015"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br)$(br)$(br)-Ametrine Gems: 0.02, 0.01$(br)-Dimensional Shard: 0.02$(br)-Emerald: 0.02, 0.01$(br)-Prismarine Crystals: 0.02"
+        }
+    ]
+}

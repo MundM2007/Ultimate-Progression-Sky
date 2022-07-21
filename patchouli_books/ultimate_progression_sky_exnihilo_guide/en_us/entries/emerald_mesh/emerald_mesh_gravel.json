@@ -1,0 +1,11 @@
+{
+    "name": "Gravel (Emerald Mesh)",
+    "icon": "minecraft:gravel",
+    "category": "patchouli:emerald_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Gravel and using the Emerald Mesh will output:$(br)-Copper Piece: 0.2, 0.1$(br)-Flint: 0.2, 0.1$(br)-Aluminum Piece: 0.15, 0.075$(br)-Iron Piece: 0.15, 0.075$(br)-Tin Piece: 0.1, 0.05$(br)-Zinc Piece: 0.1, 0.05$(br)-Nickel Piece: 0.08, 0.04$(br)-Lead Piece: 0.07$(br)-Silver Piece: 0.06, 0.03$(br)-Gold Piece: 0.05, 0.025$(br)-Osmium Piece: 0.05, 0.025$(br)-Uranium Piece: 0.04, 0.02"
+        }
+    ]
+}

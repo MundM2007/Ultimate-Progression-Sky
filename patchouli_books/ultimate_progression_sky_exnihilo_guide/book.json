@@ -1,0 +1,8 @@
+{
+    "name": "Ultimate Progression: Sky",
+    "landing_text": "this book basically shows you the drops of the different mesh types, because the JEI integration of the Ex Nihilo mod is (sometimes) broken. To start choose the mesh first. The Entries are formated in this way: Item: Chance, second Chance,...",
+    "book_texture": "patchouli:textures/gui/book_cyan.png",
+    "model": "patchouli:book_cyan",
+    "show_progress": false,
+    "subtitle": "Ex Nihilo Guide"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Crushed End stone (Iron Mesh)",
+    "icon": "exnihilosequentia:crushed_end_stone",
+    "category": "patchouli:iron_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Crushed End stone and using the Iron Mesh will output:$(br)-Ender Pearl: 0.01"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Leaves (Flint Mesh)",
+    "icon": "minecraft:oak_leaves",
+    "category": "patchouli:flint_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving any Leaves and using the Flint Mesh will output:$(br)-Apple:$(br) 0.025$(br)-Golden Apple:$(br) 0.0005$(br)-Silkworm:$(br) 0.02"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br)$(br)$(br)Additionally if using any of these Leaf types it will output the equivalent Sapling type with a chance of 0.05:$(br)-Acacia Leaves$(br)-Birch Leaves$(br)-Dark Oak Leaves$(br)-Jungle Leaves$(br)-Oak Leaves$(br)-Spruce leaves"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Gravel (String Mesh)",
+    "icon": "minecraft:gravel",
+    "category": "patchouli:string_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Gravel and using the String Mesh will output:$(br)-Flint: 0.2$(br)-Iron Piece: 0.15"
+        }
+    ]
+}

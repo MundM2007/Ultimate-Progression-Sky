@@ -1,0 +1,15 @@
+{
+    "name": "Sand (Iron Mesh)",
+    "icon": "minecraft:sand",
+    "category": "patchouli:iron_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Sand and using the Iron Mesh will output:$(br)-Coal: 0.15$(br)-Apatite: 0.1$(br)-Cinnabar: 0.1$(br)-Potassium Nitrate: 0.1$(br)-Lapis Lazuli: 0.075$(br)-Prosperity Shard: 0.05$(br)-Salt: 0.05$(br)-Sulfur: 0.05$(br)-Uraninite: 0.05$(br)-Diamond: 0.03$(br)-Prismarine Shards: 0.03$(br)-Ametrine Gems: 0.02"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br)$(br)$(br)-Emerald: 0.02"
+        }
+    ]
+}

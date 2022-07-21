@@ -1,0 +1,11 @@
+{
+    "name": "Crushed End stone (Diamond Mesh)",
+    "icon": "exnihilosequentia:crushed_end_stone",
+    "category": "patchouli:diamond_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Crushed End stone and using the Diamond Mesh will output:$(br)-Thallasium Nugget: 0.4$(br)-Anglesite Crystal: 0.01$(br)-Ender Pearl: 0.01"
+        }
+    ]
+}

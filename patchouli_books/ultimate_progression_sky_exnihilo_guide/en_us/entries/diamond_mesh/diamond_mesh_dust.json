@@ -1,0 +1,11 @@
+{
+    "name": "Dust (Diamond Mesh)",
+    "icon": "exnihilosequentia:dust",
+    "category": "patchouli:diamond_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Dust and using the Diamond Mesh Mesh will output:$(br)-Bone Meal: 0.15, 0.075$(br)-Fluix Dust: 0.1$(br)-Redstone Dust: 0.1, 0.05$(br)-Sky Stone Dust: 0.08$(br)-Glowstone Dust: 0.075$(br)-Gunpowder: 0.05$(br)-Inferium Essence: 0.05$(br)-Yellorium Dust: 0.05$(br)-Flux dust: 0.02$(br)-Platinum Dust: 0.012$(br)-Bismuth Dust: 0.01 $(br)-Certus Quartz Dust: 0.01"
+        }
+    ]
+}

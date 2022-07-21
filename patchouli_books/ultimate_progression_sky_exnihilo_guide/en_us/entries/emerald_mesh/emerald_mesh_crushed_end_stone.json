@@ -1,0 +1,11 @@
+{
+    "name": "Crushed End stone (Emerald Mesh)",
+    "icon": "exnihilosequentia:crushed_end_stone",
+    "category": "patchouli:emerald_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Crushed End stone and using the Emerald Mesh will output:$(br)-Thallasium Nugget: 0.4$(br)-Azure Silver Dust: 0.025$(br)-Anglesite Crystal: 0.01$(br)-Ender Pearl: 0.01, 0.005"
+        }
+    ]
+}

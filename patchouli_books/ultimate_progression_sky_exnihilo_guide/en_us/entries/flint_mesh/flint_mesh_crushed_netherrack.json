@@ -1,0 +1,11 @@
+{
+    "name": "Crushed Netherrack (Flint Mesh)",
+    "icon": "exnihilosequentia:crushed_netherrack",
+    "category": "patchouli:flint_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Crushed Netherrack and using the Flint Mesh will output:$(br)-Quartz Dust: 0.1$(br)-Blaze Powder: 0.075"
+        }
+    ]
+}

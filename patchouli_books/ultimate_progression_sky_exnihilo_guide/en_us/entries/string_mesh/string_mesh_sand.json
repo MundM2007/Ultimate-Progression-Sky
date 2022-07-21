@@ -1,0 +1,11 @@
+{
+    "name": "Sand (String Mesh)",
+    "icon": "minecraft:sand",
+    "category": "patchouli:string_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Sand and using the String Mesh will output:$(br)-Coal: 0.15$(br)-Lapis Lazuli: 0.075"
+        }
+    ]
+}

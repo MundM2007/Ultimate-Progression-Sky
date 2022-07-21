@@ -1,0 +1,11 @@
+{
+    "name": "Dust (Flint Mesh)",
+    "icon": "exnihilosequentia:dust",
+    "category": "patchouli:flint_mesh",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sieving Dust and using the Flint Mesh will output:$(br)-Bone Meal: 0.15$(br)-Redstone: 0.1$(br)-Sky Stone Dust: 0.08$(br)-Gunpowder: 0.05$(br)-Flux dust: 0.02"
+        }
+    ]
+}
