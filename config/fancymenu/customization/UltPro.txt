@@ -1,0 +1,341 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = identifier_af5a4a3186d74c12
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 991
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_mult_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_multi.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_option_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_exit_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_exit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -99
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 200
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_single_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_single.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 64
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bh_up_mods_hover.png
+  backgroundnormal = config\fancymenu\assets\bh_up_mods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 05f59162-66b7-4631-9675-519e848e55bb1656850686887
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 9900f1df-fc1f-43f4-8e68-0d6f1f66ff8a1656850686897
+  y = 295
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 388c5fa6-60cf-4426-af10-42e3ee88efc51656850686897
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 393b656f-37a6-44d9-86c5-6627e6a9132f1656850686897
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 2bab68e8-4e91-412f-aa81-15c9507850e71656850686897
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 11046ba3-93a5-4f82-b98b-a0a8a5a645b41656850686897
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bh_up_bisect_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 64
+  width = 53
+  actionid = 8dddf763-4402-4bae-bae7-d96dfd9286281637277977597
+  action = addbutton
+  y = 76
+  backgroundnormal = config\fancymenu\assets\bh_up_bisect.png
+  value = https://www.bisecthosting.com/
+  height = 67
+}
+
+customization {
+  path = config/fancymenu/assets/bh_up_logo.png
+  orientation = mid-centered
+  x = -266
+  width = 168
+  action = addtexture
+  actionid = 239d782b-8d1d-447d-97f4-33ca11f38dbc1637278521121
+  y = -142
+  height = 221
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bh_up_github_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 208
+  width = 55
+  actionid = d72f649a-1010-477b-b407-d7768e19a1001637804025578
+  action = addbutton
+  y = 76
+  backgroundnormal = config\fancymenu\assets\bh_up_github.png
+  value = https://github.com/MundM2007/Ultimate-Progression/
+  height = 67
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bh_up_discord_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 135
+  width = 57
+  actionid = 63128f54-fc7a-4480-8418-948c494399cf1637804186457
+  action = addbutton
+  y = 76
+  backgroundnormal = config\fancymenu\assets\bh_up_discord.png
+  value = https://discord.gg/g8vzcVSdMe
+  height = 67
+}
+
