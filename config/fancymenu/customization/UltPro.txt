@@ -9,7 +9,8 @@ customization-meta {
 }
 
 customization {
-  name = identifier_af5a4a3186d74c12
+  restart_on_load = false
+  name = smoothgears
   action = animatebackground
 }
 
@@ -25,7 +26,7 @@ customization {
 }
 
 customization {
-  keepaspectratio = false
+  keepaspectratio = true
   action = backgroundoptions
 }
 
@@ -215,7 +216,7 @@ customization {
   x = 186
   width = 268
   action = deep_customization_element:title_screen_forge_top
-  actionid = 05f59162-66b7-4631-9675-519e848e55bb1656850686887
+  actionid = 5b2cb775-a493-4fb0-ae33-4d425aa9b73b1661280594205
   y = 4
   height = 19
 }
@@ -226,7 +227,7 @@ customization {
   x = 2
   width = 108
   action = deep_customization_element:title_screen_branding
-  actionid = 9900f1df-fc1f-43f4-8e68-0d6f1f66ff8a1656850686897
+  actionid = 8488a7f2-793d-41eb-ba35-c07faaea3ddb1661280594211
   y = 295
   height = 40
 }
@@ -237,7 +238,7 @@ customization {
   x = 411
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
-  actionid = 388c5fa6-60cf-4426-af10-42e3ee88efc51656850686897
+  actionid = cc1c7a2f-7cce-437e-bde0-0acb0f6cfee81661280594211
   y = 317
   height = 9
 }
@@ -248,7 +249,7 @@ customization {
   x = 423
   width = 13
   action = deep_customization_element:title_screen_realms_notification
-  actionid = 393b656f-37a6-44d9-86c5-6627e6a9132f1656850686897
+  actionid = f61d72f2-08fe-4b3e-8093-1d493e2cefdd1661280594211
   y = 184
   height = 13
 }
@@ -259,7 +260,7 @@ customization {
   x = 183
   width = 274
   action = deep_customization_element:title_screen_logo
-  actionid = 2bab68e8-4e91-412f-aa81-15c9507850e71656850686897
+  actionid = 1e72219c-eba4-45f8-991c-0fb5d7cbe95d1661280594211
   y = 30
   height = 52
 }
@@ -272,7 +273,7 @@ customization {
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
-  actionid = 11046ba3-93a5-4f82-b98b-a0a8a5a645b41656850686897
+  actionid = 27c09184-5332-4fc7-8b13-906277436d751661280594211
   y = 0
   height = 30
 }
@@ -297,12 +298,12 @@ customization {
 customization {
   path = config/fancymenu/assets/bh_up_logo.png
   orientation = mid-centered
-  x = -266
-  width = 168
+  x = -304
+  width = 250
   action = addtexture
   actionid = 239d782b-8d1d-447d-97f4-33ca11f38dbc1637278521121
-  y = -142
-  height = 221
+  y = -152
+  height = 244
 }
 
 customization {
@@ -318,7 +319,7 @@ customization {
   action = addbutton
   y = 76
   backgroundnormal = config\fancymenu\assets\bh_up_github.png
-  value = https://github.com/MundM2007/Ultimate-Progression/
+  value = https://github.com/MundM2007/Ultimate-Progression-Sky/issues
   height = 67
 }
 

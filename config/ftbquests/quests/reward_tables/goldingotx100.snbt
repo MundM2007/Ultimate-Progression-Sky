@@ -1,7 +1,7 @@
 {
 	id: "6C4AABC30B23D97B"
 	order_index: 15
-	title: "GoldIngotx100"
+	title: "GoldIngotx40"
 	loot_size: 1
-	rewards: [{ item: "minecraft:gold_ingot", count: 100 }]
+	rewards: [{ item: "minecraft:gold_ingot", count: 40 }]
 }

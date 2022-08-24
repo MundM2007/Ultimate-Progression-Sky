@@ -91,3 +91,35 @@ craftingTable.addShaped("envirotech.xerothium_void_miner_ccu/skyblock", <item:en
 	[<item:envirocore:xerothium>, <item:envirocore:laser_core>, <item:envirocore:xerothium>], 
 	[<item:envirocore:interdimensional_modifier>, <item:envirotech:nanorite_void_miner_ccu>, <item:envirocore:interdimensional_modifier>]
 ]);
+
+mods.jei.JEI.addInfo(<item:naturesaura:nature_altar>, ["Don't build the crimson altar it will not work anywhere apart from the nether which you cannot get to. All the crimson altar recipeshave been ported to the natural altar"]);
+mods.jei.JEI.addInfo(<item:minecraft:dirt>, [
+  "This is a list of everything that dirt drops when being sieved with a string mesh or higher:",
+  "Wheat Seeds, 0.2",
+  "Melon Seeds, 0.05",
+  "Pumpkin Seeds, 0.05",
+  "Beetroot Seeds, 0.03",
+  "Vines, 0.03",
+  "Cocoa Beans, 0.04",
+  "Sweet Berry Seeds, 0.04",
+  "Carrot Seeds, 0.05",
+  "Fern Seed, 0.01",
+  "Cactus Seed, 0.04",
+  "Grass Seeds, 0.03",
+  "Potato Seeds, 0.05",
+  "Sugarcane Seeds, 0.04",
+  "Bamboo Seed, 0.03",
+  "Large Fern Seed, 0.01",
+  "Ancient Spores, 0.05",
+  "Oak Seed, 0.03",
+  "Dark Oak Seed, 0.03",
+  "Birch Seed, 0.03",
+  "Spruce Seed, 0.03",
+  "Acacia Seed, 0.03",
+  "Jungle Seed, 0.03",
+  "Blackstone Pebble, 0.9",
+  "Basalt pebble, 0.9",
+  "Granite Pebble, 0.9",
+  "Diorite Pebble, 0.9",
+  "Andesite Pebble, 0.9",
+  "Stone Pebble, 0.9, 0.6, 0.3"]);

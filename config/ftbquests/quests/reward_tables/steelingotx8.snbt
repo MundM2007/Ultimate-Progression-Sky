@@ -3,5 +3,5 @@
 	order_index: 34
 	title: "SteelIngotx8"
 	loot_size: 1
-	rewards: [{ item: "emendatusenigmatica:steel_ingot", count: 8 }]
+	rewards: [{ item: "emendatusenigmatica:steel_ingot", count: 4 }]
 }

@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "getting_started_with_skyblock"
-	title: "Ex Nihilo (Quests: 38)"
+	title: "Getting Started (Quests: 38)"
 	icon: {
 		id: "exnihilosequentia:hammer_diamond"
 		Count: 1b
@@ -573,6 +573,11 @@
 		{
 			x: -8.5d
 			y: -3.5d
+			description: [
+				"Sieving Gravel will give you pieces that you can craft into chunks and then smelt to get Ingots."
+				"Sieving Sand will give you gems, like Diamonds and Coal."
+				"Sieving Dust will give you Dust, like Glowstone and Bone Meal"
+			]
 			dependencies: [
 				"072965CAFEAF399B"
 				"29285436BDAC2564"
@@ -727,6 +732,17 @@
 				id: "72966E432CAC3383"
 				type: "item"
 				item: "decimal_coins:coin_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["To obtain a Totem of Undying you need to firstly cure a few zombie villagers and create a villager spawn egg using Mystical Agriculture. After that you craft and use the pillager spawn egg until a Raid Captain spawn then kill him and enter a village to play a raid. If playing with normal or hard difficulty an evoker will spawn during a raid. By killing it you can obtain the Totem of Undying"]
+			id: "1C3CC172ABB64279"
+			tasks: [{
+				id: "4AD21154663292A3"
+				type: "item"
+				item: "minecraft:totem_of_undying"
 			}]
 		}
 	]
