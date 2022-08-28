@@ -402,13 +402,13 @@ event.custom({
     inputs:[
         {count:2,base_ingredient:{tag:"minecraft:coals"}}
     ],
-    result:{fluid:"immersivepetroleum:crude_oil",amount:1000},
+    result:{fluid:"immersivepetroleum:oil",amount:1000},
     fluid:{tag:"minecraft:water",amount:3000},
     energy:5000
 })
 //Barrel fluid to block crafting | Input Fluid, Input Item, Output Block
-barrel_fl_to_block("immersivepetroleum:crude_oil", "minecraft:sand", "thermal:oil_sand")
-barrel_fl_to_block("immersivepetroleum:crude_oil", "minecraft:red_sand", "thermal:oil_red_sand")
+barrel_fl_to_block("immersivepetroleum:oil", "minecraft:sand", "thermal:oil_sand")
+barrel_fl_to_block("immersivepetroleum:oil", "minecraft:red_sand", "thermal:oil_red_sand")
 
 //Adding new Blaze Rod recipe
 event.shaped("minecraft:blaze_rod", [
