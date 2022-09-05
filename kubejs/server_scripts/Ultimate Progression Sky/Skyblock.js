@@ -1017,4 +1017,19 @@ event.shaped("minecraft:pillager_spawn_egg", [
     B: "minecraft:villager_spawn_egg",
     C: "minecraft:crossbow"
 })
+
+//removing the netherite scrap dupe recipe
+event.remove({id: "minecraft:ens_ancient_debris"})
+
+//adding a recipe for the elder guardian spawn egg
+event.shaped("minecraft:elder_guardian_spawn_egg", [
+    "CAC",
+    "ABA",
+    "DAD"
+  ],{
+    A: "minecraft:guardian_spawn_egg",
+    B: "minecraft:egg",
+    C: "minecraft:blue_dye",
+    D: "minecraft:gray_dye"
+})
 })

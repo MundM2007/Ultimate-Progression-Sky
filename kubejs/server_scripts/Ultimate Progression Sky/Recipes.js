@@ -1,5 +1,4 @@
 onEvent('recipes', event => {  
-
 event.custom({
     "input": [
       {
@@ -147,5 +146,102 @@ event.custom({
   process_time: 200,
   ingredient: {tag: "forge:ingots/enderium"},
   results: [{item: "emendatusenigmatica:enderium_dust"}]
+})
+
+//removing old marble recipes
+event.remove({id: "enviromats:blocks/craft_raw/marble"})
+event.remove({id: "mysticalagriculture:essence/chisel/marble"})
+event.remove({id: "mysticalagriculture:essence/quark/marble"})
+event.remove({id: "mysticalagriculture:seed/infusion/marble"})
+
+//Adding new Marble recipes
+event.shaped("8x quark:marble",[
+    "AAA",
+    "BCB",
+    "AAA"
+],{
+    A:"minecraft:diorite",
+    B:"minecraft:stone",
+    C:"minecraft:quartz"
+})
+event.shaped("8x chisel:marble/raw",[
+    "AAA",
+    "ABA",
+    "AAA"
+],{
+    A:"quark:marble",
+    B:"minecraft:quartz"
+})
+event.shaped("8x enviromats:marble",[
+    "AAA",
+    "ABA",
+    "AAA"
+],{
+    A:"chisel:marble/raw",
+    B:"minecraft:quartz"
+})
+
+//Adding new Marble recipes from essence
+event.shaped("16x quark:marble",[
+    "AAA",
+    "BAB",
+    "AAA"
+],{
+    A:"mysticalagriculture:marble_essence",
+    B:"mysticalagriculture:stone_essence"
+})
+event.shaped("16x chisel:marble/raw",[
+    "AAA",
+    "ABA",
+    "AAA"
+],{
+    A:"mysticalagriculture:marble_essence",
+    B:"mysticalagriculture:stone_essence"
+})
+event.shaped("16x enviromats:marble",[
+    "AAA",
+    "AAA",
+    "AAA"
+],{
+    A:"mysticalagriculture:marble_essence"
+})
+
+//adding new marble seed recipe
+allmarble = ["quark:marble", "chisel:marble/raw", "enviromats:marble"].forEach(marble => {
+    event.custom({
+        "type": "mysticalagriculture:infusion",
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+        {
+            "item": marble
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "item": marble
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "item": marble
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        },
+        {
+            "item": marble
+        },
+        {
+            "item": "mysticalagriculture:prudentium_essence"
+        }
+        ],
+        "result": {
+            "item": "mysticalagriculture:marble_seeds"
+        }
+    })
 })
 })

@@ -2946,7 +2946,7 @@
 			tasks: [{
 				id: "784D0B5C82410BC1"
 				type: "item"
-				item: "thermal:crude_oil_bucket"
+				item: "immersivepetroleum:oil_bucket"
 			}]
 		}
 		{
