@@ -32,12 +32,12 @@ craftingTable.addShaped("quantumquarryplus.qqprcp/skyblock", <item:quantumquarry
 craftingTable.removeByName("crafttweaker:infusion_padestal");
 craftingTable.removeByName("crafttweaker:infusion_altar");
 craftingTable.addShaped("mysticalagriculture.infusion_pedestal/skyblock", <item:mysticalagriculture:infusion_pedestal>, [
-	[<item:minecraft:air>, <tag:items:forge:ingots/draconium>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <tag:items:forge:ingots/draconium_awakened>, <item:minecraft:air>], 
 	[<item:minecraft:red_carpet>, <item:minecraft:stone>, <item:minecraft:red_carpet>], 
 	[<item:minecraft:air>, <item:minecraft:stone>, <item:minecraft:air>]
 ]);
 craftingTable.addShaped("mysticalagriculture.infusion_altar/skyblock", <item:mysticalagriculture:infusion_altar>, [
-	[<tag:items:forge:ingots/draconium>, <item:minecraft:red_carpet>, <tag:items:forge:ingots/draconium>], 
+	[<tag:items:forge:ingots/draconium_awakened>, <item:minecraft:red_carpet>, <tag:items:forge:ingots/draconium_awakened>], 
 	[<item:minecraft:red_carpet>, <item:minecraft:stone>, <item:minecraft:red_carpet>], 
 	[<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>]
 ]);
@@ -121,5 +121,5 @@ mods.jei.JEI.addInfo(<item:minecraft:dirt>, [
   "Basalt pebble, 0.9",
   "Granite Pebble, 0.9",
   "Diorite Pebble, 0.9",
-  "Andesite Pebble, 0.9",
-  "Stone Pebble, 0.9, 0.6, 0.3"]);
+  "Andesite Pebble, 0.9, 0.75",
+  "Stone Pebble, 0.9, 0.75, 0.6"]);

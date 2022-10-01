@@ -5,6 +5,10 @@ import crafttweaker.api.loot.conditions.LootConditionBuilder;
 import crafttweaker.api.loot.modifiers.CommonLootModifiers;
 
 
+//baubley heart canisters
+craftingTable.removeByName("bhc:god_apple");
+
+
 craftingTable.removeByName("silents_mechanisms:metals/redstone_alloy_nugget");
 craftingTable.removeByName("silents_mechanisms:metals/redstone_alloy_block");
 craftingTable.addShapeless("silents_mechanisms.redstone_alloy_nugget", <item:silents_mechanisms:redstone_alloy_nugget> * 9, [<item:silents_mechanisms:redstone_alloy_ingot>]);

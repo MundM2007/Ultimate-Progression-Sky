@@ -62,6 +62,11 @@ craftingTable.removeByName("projecte:high_covalence_dust");
 craftingTable.removeByName("projecte:collector_mk1");
 craftingTable.removeByName("projecte:transmutation_tablet");
 craftingTable.removeByName("projecte:alchemical_chest");
+craftingTable.removeByName("projecte:collector_mk2");
+craftingTable.removeByName("projecte:collector_mk3");
+craftingTable.removeByName("projecte:relay_mk1");
+craftingTable.removeByName("projecte:relay_mk2");
+craftingTable.removeByName("projecte:relay_mk3");
 craftingTable.addShapeless("low_covalence_dust", <item:projecte:low_covalence_dust>, [
 	<item:minecraft:cobblestone>, <item:minecraft:charcoal>
 ]);
@@ -71,11 +76,6 @@ craftingTable.addShapeless("medium_covalence_dust", <item:projecte:medium_covale
 craftingTable.addShapeless("high_covalence_dust", <item:projecte:high_covalence_dust>, [
 	<item:minecraft:diamond>, <item:minecraft:coal>
 ]);
-craftingTable.addShaped("collector_mk1", <item:projecte:collector_mk1>, [
-	[<item:minecraft:glowstone>, <item:projecte:aeternalis_fuel>, <item:minecraft:glowstone>], 
-	[<item:minecraft:glowstone>, <item:minecraft:furnace>, <item:minecraft:glowstone>], 
-	[<item:minecraft:glowstone>, <item:minecraft:glowstone>, <item:minecraft:glowstone>]
-]);
 craftingTable.addShaped("transmutation_tablet", <item:projecte:transmutation_tablet>, [ 
 	[<item:simplyjetpacks:jetpack_mek4>, <item:projecte:transmutation_table>, <item:simplyjetpacks:jetpack_te4>], 
 	[<item:simplyjetpacks:jetpack_vanilla4>, <item:mekanism:jetpack>, <item:simplyjetpacks:jetpack_ie3>]
@@ -84,14 +84,6 @@ craftingTable.addShaped("alchemical_chest", <item:projecte:alchemical_chest>, [
 	[<item:projecte:low_covalence_dust>, <item:projecte:high_covalence_dust>, <item:projecte:low_covalence_dust>], 
 	[<item:projecte:high_covalence_dust>, <item:ironchest:diamond_chest>, <item:projecte:high_covalence_dust>], 
 	[<item:projecte:medium_covalence_dust>, <item:projecte:high_covalence_dust>, <item:projecte:medium_covalence_dust>],
-]);
-craftingTable.removeByName("projecte:condenser_mk1");
-mods.extendedcrafting.TableCrafting.addShaped("condenser_mk1", <item:projecte:condenser_mk1>, [
-	[<item:projecte:red_matter>, <item:projecte:dark_matter>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter>, <item:projecte:red_matter>], 
-	[<item:projecte:dark_matter>, <item:projecte:high_covalence_dust>, <item:projecte:alchemical_chest>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter>], 
-	[<item:projecte:high_covalence_dust>, <item:projecte:alchemical_chest>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:alchemical_chest>, <item:projecte:high_covalence_dust>], 
-	[<item:projecte:dark_matter>, <item:projecte:high_covalence_dust>, <item:projecte:alchemical_chest>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter>], 
-	[<item:projecte:red_matter>, <item:projecte:dark_matter>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter>, <item:projecte:red_matter>]
 ]);
 craftingTable.removeByName("projecte:philosophers_stone");
 craftingTable.removeByName("projecte:philosophers_stone_alt");
@@ -110,7 +102,7 @@ mods.extendedcrafting.TableCrafting.addShaped("transmutation_table", <item:proje
 	[<item:projecte:red_matter_block>, <item:immersivepetroleum:petcoke_block>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:envirocore:xerothium>, <item:projecte:aeternalis_fuel_block>, <item:botania:elementium_block>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:immersivepetroleum:petcoke_block>, <item:projecte:red_matter_block>], 
 	[<item:projecte:dark_matter_block>, <item:enderioalloys:block_alloy_vivid_alloy>, <item:enderioalloys:block_alloy_stellar_alloy>, <item:extendedcrafting:nether_star_block>, <item:botania:elementium_block>, <item:extendedcrafting:nether_star_block>, <item:enderioalloys:block_alloy_stellar_alloy>, <item:enderioalloys:block_alloy_vivid_alloy>, <item:projecte:dark_matter_block>], 
 	[<item:projecte:dark_matter_block>, <item:botania:elementium_block>, <item:extendedcrafting:nether_star_block>, <item:botania:elementium_block>, <item:botania:terrasteel_block>, <item:botania:elementium_block>, <item:extendedcrafting:nether_star_block>, <item:envirocore:xerothium>, <item:projecte:dark_matter_block>], 
-	[<item:projecte:dark_matter_block>, <item:projecte:aeternalis_fuel_block>, <item:botania:elementium_block>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:philosophers_stone>, <item:extendedcrafting:ultimate_singularity>, <item:botania:elementium_block>, <item:projecte:aeternalis_fuel_block>, <item:projecte:dark_matter_block>], 
+	[<item:projecte:dark_matter_block>, <item:projecte:aeternalis_fuel_block>, <item:botania:elementium_block>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:condenser_mk2>, <item:extendedcrafting:ultimate_singularity>, <item:botania:elementium_block>, <item:projecte:aeternalis_fuel_block>, <item:projecte:dark_matter_block>], 
 	[<item:projecte:dark_matter_block>, <item:envirocore:xerothium>, <item:extendedcrafting:nether_star_block>, <item:botania:elementium_block>, <item:botania:terrasteel_block>, <item:botania:elementium_block>, <item:extendedcrafting:nether_star_block>, <item:botania:elementium_block>, <item:projecte:dark_matter_block>], 
 	[<item:projecte:dark_matter_block>, <item:enderioalloys:block_alloy_vivid_alloy>, <item:enderioalloys:block_alloy_stellar_alloy>, <item:extendedcrafting:nether_star_block>, <item:botania:elementium_block>, <item:extendedcrafting:nether_star_block>, <item:enderioalloys:block_alloy_stellar_alloy>, <item:enderioalloys:block_alloy_vivid_alloy>, <item:projecte:dark_matter_block>], 
 	[<item:projecte:red_matter_block>, <item:immersivepetroleum:petcoke_block>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:botania:elementium_block>, <item:projecte:aeternalis_fuel_block>, <item:envirocore:xerothium>, <item:enderioalloys:block_alloy_crystalline_alloy>, <item:immersivepetroleum:petcoke_block>, <item:projecte:red_matter_block>], 
@@ -122,6 +114,26 @@ mods.extendedcrafting.TableCrafting.addShaped("tome_of_knowledge", <item:project
 	[<item:minecraft:book>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:book>, <item:minecraft:book>], 
 	[<item:minecraft:book>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:ultimate_singularity>, <item:minecraft:book>, <item:minecraft:air>], 
 	[<item:minecraft:book>, <item:minecraft:book>, <item:minecraft:book>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+craftingTable.removeByName("projecte:condenser_mk1");
+mods.extendedcrafting.TableCrafting.addShaped("condenser_mk1", <item:projecte:condenser_mk1>, [
+	[<item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:dark_matter>, <item:projecte:low_covalence_dust>, <item:projecte:low_covalence_dust>, <item:projecte:low_covalence_dust>, <item:projecte:dark_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>], 
+	[<item:projecte:red_matter>, <item:projecte:dark_matter>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:medium_covalence_dust>, <item:projecte:high_covalence_dust>, <item:projecte:medium_covalence_dust>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:dark_matter>, <item:projecte:red_matter>], 
+	[<item:projecte:dark_matter>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:alchemical_chest>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:alchemical_chest>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:alchemical_chest>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:dark_matter>], 
+	[<item:projecte:low_covalence_dust>, <item:projecte:medium_covalence_dust>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:alchemical_chest>, <item:mysticalagradditions:creative_essence>, <item:projecte:alchemical_chest>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:medium_covalence_dust>, <item:projecte:low_covalence_dust>], 
+	[<item:projecte:low_covalence_dust>, <item:projecte:high_covalence_dust>, <item:projecte:alchemical_chest>, <item:mysticalagradditions:creative_essence>, <item:projecte:alchemical_chest>, <item:mysticalagradditions:creative_essence>, <item:projecte:alchemical_chest>, <item:projecte:high_covalence_dust>, <item:projecte:low_covalence_dust>], 
+	[<item:projecte:low_covalence_dust>, <item:projecte:medium_covalence_dust>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:alchemical_chest>, <item:mysticalagradditions:creative_essence>, <item:projecte:alchemical_chest>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:medium_covalence_dust>, <item:projecte:low_covalence_dust>], 
+	[<item:projecte:dark_matter>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:alchemical_chest>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:alchemical_chest>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:alchemical_chest>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:dark_matter>], 
+	[<item:projecte:red_matter>, <item:projecte:dark_matter>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:medium_covalence_dust>, <item:projecte:high_covalence_dust>, <item:projecte:medium_covalence_dust>, <item:extendedcrafting:the_ultimate_block>, <item:projecte:dark_matter>, <item:projecte:red_matter>], 
+	[<item:projecte:red_matter>, <item:projecte:red_matter>, <item:projecte:dark_matter>, <item:projecte:low_covalence_dust>, <item:projecte:low_covalence_dust>, <item:projecte:low_covalence_dust>, <item:projecte:dark_matter>, <item:projecte:red_matter>, <item:projecte:red_matter>]
+]);
+craftingTable.removeByName("projecte:condenser_mk2");
+mods.extendedcrafting.TableCrafting.addShaped("condenser_mk2", <item:projecte:condenser_mk2>, [
+	[<item:projecte:red_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter_block>, <item:projecte:red_matter_block>], 
+	[<item:projecte:dark_matter_block>, <item:projecte:high_covalence_dust>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter_block>], 
+	[<item:projecte:high_covalence_dust>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:condenser_mk1>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:high_covalence_dust>], 
+	[<item:projecte:dark_matter_block>, <item:projecte:high_covalence_dust>, <item:extendedcrafting:ultimate_singularity>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter_block>], 
+	[<item:projecte:red_matter_block>, <item:projecte:dark_matter_block>, <item:projecte:high_covalence_dust>, <item:projecte:dark_matter_block>, <item:projecte:red_matter_block>]
 ]);
 
 //Refined Storage (Removes:1,Addiotions:1)
@@ -171,12 +183,6 @@ craftingTable.addShaped("metallurgic_infuser_custom",<item:mekanism:metallurgic_
 	[<item:minecraft:redstone>, <item:mekanism:steel_casing>, <item:minecraft:redstone>], 
 	[<item:minecraft:iron_ingot>, <item:minecraft:furnace>, <item:minecraft:iron_ingot>]
 ]);
-craftingTable.addShaped("steel_casing_2", <item:mekanism:steel_casing>, [
-	[<tag:items:forge:storage_blocks/steel>, <item:mekanism:pellet_polonium>, <tag:items:forge:storage_blocks/steel>], 
-	[<item:mekanism:pellet_plutonium>, <item:enderioalloys:item_alloy_ingot_stellar_alloy>, <item:mekanism:pellet_plutonium>], 
-	[<tag:items:forge:storage_blocks/steel>, <item:mekanism:pellet_polonium>, <tag:items:forge:storage_blocks/steel>]
-]);
-<recipetype:mekanism:nucleosynthesizing>.addRecipe("steel_casing_3", <tag:items:forge:storage_blocks/steel>, <gas:mekanism:antimatter> * 10, <item:mekanism:steel_casing>, 600);
 <recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/silentgear/crushed_shulker_shell", <item:minecraft:shulker_shell>, <item:silentgear:crushed_shulker_shell>);
 <recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/ae2/fluix_dust", <item:appliedenergistics2:fluix_crystal>, <item:appliedenergistics2:fluix_dust>);
 <recipetype:mekanism:crushing>.addRecipe("mekanism.crushing/enderioalloys/item_material_pulsating_powder/fluix_dust", <item:enderioalloys:item_material_pulsating_crystal>, <item:enderioalloys:item_material_pulsating_powder>);
@@ -339,7 +345,7 @@ craftingTable.removeByName("thermal:parts/enderium_gear");
 <recipetype:thermal:bottler>.addRecipe("tinkers_bronze", <item:tconstruct:tinkers_bronze_ingot> * 3, <item:minecraft:glass> , <fluid:tconstruct:molten_copper> * 432, 4000);
 
 craftingTable.removeByName("thermal:machine_frame");
-<recipetype:create:mechanical_crafting>.addRecipe("machine_frame_custom", <item:thermal:machine_frame>, [
+<recipetype:create:mechanical_crafting>.addRecipe("machine_frame", <item:thermal:machine_frame>, [
 	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/signalum>, <tag:items:forge:plastic>, <tag:items:forge:gears/lumium>, <item:silents_mechanisms:compressed_iron_ingot>], 
 	[<tag:items:forge:gears/signalum>, <item:botania:elementium_ingot>, <item:botania:manasteel_ingot>, <item:botania:elementium_ingot>, <tag:items:forge:gears/lumium>], 
 	[<tag:items:forge:plastic>, <item:botania:manasteel_ingot>, <item:botania:rune_mana>, <item:botania:manasteel_ingot>, <tag:items:forge:plastic>], 
@@ -367,7 +373,7 @@ mods.extendedcrafting.TableCrafting.addShaped("machine_frame_table", 0, <item:th
 //Industrial Foregoing (Removes:4,Addiotions:1)
 
 craftingTable.removeByName("industrialforegoing:machine_frame_pity");
-<recipetype:create:mechanical_crafting>.addRecipe("machine_frame_pity_custom", <item:industrialforegoing:machine_frame_pity>, [
+<recipetype:create:mechanical_crafting>.addRecipe("machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
 	[<item:silents_mechanisms:compressed_iron_ingot>, <tag:items:forge:gears/constantan>, <tag:items:forge:plastic>, <tag:items:forge:gears/bronze>, <item:silents_mechanisms:compressed_iron_ingot>], 
 	[<tag:items:forge:gears/constantan>, <item:bloodmagic:blankrune>, <item:bloodmagic:blankslate>, <item:bloodmagic:blankrune>, <tag:items:forge:gears/bronze>], 
 	[<tag:items:forge:plastic>, <item:bloodmagic:blankslate>, <item:bloodmagic:demonslate>, <item:bloodmagic:blankslate>, <tag:items:forge:plastic>], 

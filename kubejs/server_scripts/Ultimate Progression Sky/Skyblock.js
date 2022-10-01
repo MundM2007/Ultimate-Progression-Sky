@@ -123,7 +123,7 @@ chammer("compressium:diorite_1","exnihilosequentia:crushed_diorite",9)
 chammer("compressium:netherrack_1","exnihilosequentia:crushed_netherrack",9)
 chammer("compressium:obsidian_1","emendatusenigmatica:obsidian_dust",36)
 
-//Sieve recipes | input, output(with count), first_mesh_type, first_chance, second_mesh_type, second_chance, third_mesh_type, third_chance, fourth_mesh_type, fourth_chance, water?
+//Sieve recipes | input, output(with count), first_mesh_type, first_chance, second_mesh_type, second_chance, third_mesh_type, third_chance, water?
 
 event.remove({type: "exnihilosequentia:sieve"})
 
@@ -154,13 +154,13 @@ const dirt_sieve_drops = new Map([
   ["exnihilosequentia:pebble_blackstone", 0.9],
   ["exnihilosequentia:pebble_basalt", 0.9],
   ["exnihilosequentia:pebble_granite", 0.9],
-  ["exnihilosequentia:pebble_diorite", 0.9],
-  ["exnihilosequentia:pebble_andesite", 0.9]
+  ["exnihilosequentia:pebble_diorite", 0.9]
 ])
 for(let drops of dirt_sieve_drops.entries()){
   sieve("minecraft:dirt",drops[0],"string",drops[1],null,null,null,null,null)
 }
-sieve("minecraft:dirt","exnihilosequentia:pebble_stone","string",0.9,"string",0.6,"string",0.3,null)
+sieve("minecraft:dirt","exnihilosequentia:pebble_andesite","string",0.9,"string",0.75,null,null,null)
+sieve("minecraft:dirt","exnihilosequentia:pebble_stone","string",0.9,"string",0.75,"string",0.6,null)
 
 //Leaves Sieve drops | input, output
  sieve("#minecraft:leaves","minecraft:apple","string",0.025,"iron",0.0125,"emerald",0.00625,null)
@@ -179,7 +179,7 @@ for(let trees of leaves_sieve_drops){
   sieve("minecraft:" + trees + "_leaves","minecraft:" + trees + "_sapling","string", 0.05,"iron", 0.025,"emerald", 0.0125,null)
 }
 
-//Sand Waterlogged  Sieve drops | output, chance
+//Sand Waterlogged Sieve drops | output, chance
 const sand_water_sieve_drops = new Map([
   ["exnihilosequentia:seed_kelp", 0.03],
   ["exnihilosequentia:seed_pickle", 0.02],
@@ -209,15 +209,17 @@ for(let drops of dirt_water_sieve_drops.entries()){
 
 //String Mesh
  sieve("minecraft:gravel","minecraft:flint","string",0.4,"diamond",0.2,null,null,null)
- sieve("minecraft:gravel","exnihilosequentia:piece_iron","string",0.3,"diamond",0.15,null,null,null)
+ sieve("minecraft:gravel","exnihilosequentia:piece_iron","string",0.4,"diamond",0.2,null,null,null)
  
  sieve("#forge:sand","minecraft:coal","string",0.25,"diamond",0.125,null,null,null)
  sieve("#forge:sand","minecraft:lapis_lazuli","string",0.1,"diamond",0.05,null,null,null)
+ sieve("#forge:sand","exnihilosequentia:piece_iron","string",0.05,"diamond",0.025,null,null,null)
  
  sieve("exnihilosequentia:dust","minecraft:redstone","string",0.2,"diamond",0.1,null,null,null)
  sieve("exnihilosequentia:dust","minecraft:bone_meal","string",0.3,"diamond",0.15,null,null,null)
+ sieve("exnihilosequentia:dust","exnihilosequentia:piece_iron","string",0.05,"diamond",0.025,null,null,null)
  
- sieve("exnihilosequentia:crushed_netherrack","minecraft:blaze_powder","string",0.1,"diamond",0.05,null,null,null)
+ sieve("exnihilosequentia:crushed_netherrack","minecraft:blaze_powder","string",0.15,"diamond",0.075,null,null,null)
  
  sieve("minecraft:soul_sand","minecraft:nether_wart","string",0.05,"diamond",0.025,null,null,null)
  
@@ -291,7 +293,7 @@ for(let drops of dirt_water_sieve_drops.entries()){
  
 //Iron Mesh
  sieve("minecraft:gravel","exnihilosequentia:piece_nickel","iron",0.12,"emerald",0.06,null,null,null)
- sieve("minecraft:gravel","exnihilosequentia:piece_gold","iron",0.08,"emerald",0.04,null,null,null)
+ sieve("minecraft:gravel","exnihilosequentia:piece_gold","iron",0.1,"emerald",0.05,null,null,null)
  sieve("minecraft:gravel","exnihilosequentia:piece_silver","iron",0.1,"emerald",0.05,null,null,null)
  sieve("minecraft:gravel","exnihilosequentia:piece_uranium","iron",0.08,"emerald",0.04,null,null,null)
  
@@ -308,7 +310,7 @@ for(let drops of dirt_water_sieve_drops.entries()){
  sieve("exnihilosequentia:dust","mysticalagriculture:inferium_essence","iron",0.05,"emerald",0.25,null,null,null)
  sieve("exnihilosequentia:dust","bigreactors:yellorium_dust","iron",0.06,"emerald",0.03,null,null,null)
  
- sieve("exnihilosequentia:crushed_netherrack","exnihilosequentia:piece_gold","iron",0.2,"emerald",0.1,null,null,null)
+ sieve("exnihilosequentia:crushed_netherrack","exnihilosequentia:piece_gold","iron",0.3,"emerald",0.15,null,null,null)
  
  sieve("exnihiloae:crushed_skystone","appliedenergistics2:certus_crystal_seed","iron",0.2,"emerald",0.1,null,null,null)
  sieve("exnihiloae:crushed_skystone","appliedenergistics2:certus_quartz_crystal","iron",0.4,"emerald",0.2,null,null,null)
@@ -346,11 +348,11 @@ for(let drops of dirt_water_sieve_drops.entries()){
  sieve("exnihilosequentia:crushed_end_stone","silentgear:azure_silver_dust","emerald",0.03,"netherite",0.015,null,null,null)
 
 //Netherite Mesh
- sieve("exnihilosequentia:dust","draconicevolution:draconium_dust","netherite",0.012,null,null,null,null,null)
+ sieve("exnihilosequentia:dust","draconicevolution:draconium_dust","netherite",0.02,null,null,null,null,null)
  
- sieve("exnihilosequentia:crushed_netherrack","draconicevolution:draconium_dust","netherite",0.02,null,null,null,null,null)
+ sieve("exnihilosequentia:crushed_netherrack","draconicevolution:draconium_dust","netherite",0.035,null,null,null,null,null)
  
- sieve("exnihilosequentia:crushed_end_stone","draconicevolution:draconium_dust","netherite",0.02,null,null,null,null,null)
+ sieve("exnihilosequentia:crushed_end_stone","draconicevolution:draconium_dust","netherite",0.035,null,null,null,null,null)
  
 //Heavy Sieve recipes | input, input of normal Sieve recipe, output multiplyer
 event.remove({type: "excompressum:heavy_sieve_generated"})
@@ -724,6 +726,7 @@ event.shaped(Item.of('naturesaura:aura_bottle', 4, '{stored_type:"naturesaura:ne
 //Industrial Foregoing Laser
 event.replaceInput({id: "industrialforegoing:ore_laser_base"}, 'minecraft:redstone', '#forge:ingots/draconium')
 event.replaceInput({id: "industrialforegoing:fluid_laser_base"}, 'minecraft:redstone', '#forge:ingots/draconium')
+
 //botania Orechid
 event.remove({id: "botania:petal_apothecary/orechid"})
 event.remove({id: "botania:petal_apothecary/orechid_ignem"})
