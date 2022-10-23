@@ -423,6 +423,7 @@
 		{
 			x: -7.5d
 			y: -1.5d
+			description: ["To see all drops from sieving Dirt check the Information Tab from Dirt in JEI"]
 			dependencies: ["36A1816ACEE4200D"]
 			id: "7DAA53F7E02C9270"
 			tasks: [{
