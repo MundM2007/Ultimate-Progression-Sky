@@ -1035,4 +1035,43 @@ event.shaped("minecraft:elder_guardian_spawn_egg", [
     C: "minecraft:blue_dye",
     D: "minecraft:gray_dye"
 })
+
+
+//adding new recipes for deepslate from quark
+event.shaped("3x quark:cobbled_deepslate", [
+    "CAC",
+    "CBC",
+    "CAC"
+  ],{
+    A:"minecraft:black_dye",
+    B:"minecraft:coal",
+    C:"minecraft:cobblestone"
+})
+event.shaped("3x quark:deepslate", [
+    "CAC",
+    "CBC",
+    "CAC"
+  ],{
+    A:"minecraft:black_dye",
+    B:"minecraft:coal",
+    C:"minecraft:stone"
+})
+event.shaped("15x quark:cobbled_deepslate", [
+    "CAC",
+    "CBC",
+    "CAC"
+  ],{
+    A:"mysticalagriculture:dye_essence",
+    B:"mysticalagriculture:coal_essence",
+    C:"mysticalagriculture:stone_essence"
+})
+event.shaped("15x quark:deepslate", [
+    "CAC",
+    "CBC",
+    "CAC"
+  ],{
+    B:"mysticalagriculture:dye_essence",
+    A:"mysticalagriculture:coal_essence",
+    C:"mysticalagriculture:stone_essence"
+})
 })

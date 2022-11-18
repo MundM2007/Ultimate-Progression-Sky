@@ -250,7 +250,7 @@
 				id: "1A63CDBF9AB043B0"
 				type: "item"
 				title: "Uranium Ore"
-				icon: "mekanism:uranium_ore"
+				icon: "exnihilosequentia:chunk_uranium"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
