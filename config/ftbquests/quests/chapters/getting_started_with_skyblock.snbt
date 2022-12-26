@@ -738,7 +738,12 @@
 		{
 			x: -2.5d
 			y: 1.5d
-			description: ["To obtain a Totem of Undying you need to firstly cure a few zombie villagers and create a villager spawn egg using Mystical Agriculture. After that you craft and use the pillager spawn egg until a Raid Captain spawn then kill him and enter a village to play a raid. If playing with normal or hard difficulty an evoker will spawn during a raid. By killing it you can obtain the Totem of Undying"]
+			description: [
+				"There are two possible ways to obtain a Totem of Undying:"
+				""
+				"1. Firstly cure a few zombie villagers and create a villager spawn egg using Mystical Agriculture. After that you craft and use the pillager spawn egg until a Raid Captain spawn then kill him and enter a village to play a raid. If playing with normal or hard difficulty an evoker will spawn during a raid. By killing it you can obtain the Totem of Undying"
+				"2. Use Mob Grinding Utilities \"Mob Swab\" item"
+			]
 			dependencies: ["0E1BEB8EFCB7A17E"]
 			id: "1C3CC172ABB64279"
 			tasks: [{
@@ -751,6 +756,21 @@
 				type: "item"
 				item: "decimal_coins:coin_1"
 				count: 2
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			description: [
+				"You can obtain various seeds from sieving dirt, for a full list check the information tab of dirt in JEI."
+				"When Waterlogging the sieve and sieving dirt you can now obtain the gardens from Pam's Harvestcraft, which then drop the seeds when brocken"
+			]
+			dependencies: ["7DAA53F7E02C9270"]
+			id: "0C534374CD48A5E2"
+			tasks: [{
+				id: "0F9817F5356323BE"
+				type: "checkmark"
+				title: "Seeds"
 			}]
 		}
 	]

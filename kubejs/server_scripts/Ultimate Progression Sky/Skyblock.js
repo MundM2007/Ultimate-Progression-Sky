@@ -1074,4 +1074,35 @@ event.shaped("15x quark:deepslate", [
     A:"mysticalagriculture:coal_essence",
     C:"mysticalagriculture:stone_essence"
 })
+//removing flux recipe
+event.remove({type: "minecraft:crafting_shaped", output: "9x fluxnetworks:flux_dust"})
+
+//removing old marble recipe
+event.remove({id: "enviromats:blocks/craft_raw/marble"})
+//Adding new Marble recipes
+event.shaped("8x quark:marble",[
+    "AAA",
+    "BCB",
+    "AAA"
+],{
+    A:"minecraft:diorite",
+    B:"minecraft:stone",
+    C:"minecraft:quartz"
+})
+event.shaped("8x chisel:marble/raw",[
+    "AAA",
+    "ABA",
+    "AAA"
+],{
+    A:"quark:marble",
+    B:"minecraft:quartz"
+})
+event.shaped("8x enviromats:marble",[
+    "AAA",
+    "ABA",
+    "AAA"
+],{
+    A:"chisel:marble/raw",
+    B:"minecraft:quartz"
+})
 })
