@@ -6,7 +6,7 @@ Ultimate Progression: Sky is a 1.16.5 Modpack that focuses on progression and au
 
 This is the Skyblock version of the modpack, for the normal version go to <a href="https://www.curseforge.com/minecraft/modpacks/ultimate-progression">Ultimate Progression</a>
 
-Requirements: at least 6 GB of Alocated Ram (recommended are 8-10 GB), a decent CPU
+Requirements: at least 6 GB of Allocated Ram (recommended are 8-10 GB), a decent CPU
 
 ## Join our Discord
 
