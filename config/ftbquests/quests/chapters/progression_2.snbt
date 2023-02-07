@@ -413,6 +413,7 @@
 			title: "Mechanical Crafter"
 			x: 11.5d
 			y: -1.0d
+			description: ["You can combine the Crafters without using a Create Wrench by looking onto another already placed Crafter A and placing the Crafter B \"on the side\". This will point Crafter B to Crafter A."]
 			dependencies: [
 				"3FD2F2DC82B713E2"
 				"51CE60204EB19262"

@@ -564,7 +564,20 @@ event.shaped("exnihilosequentia:doll_blitz", [
 //remove Mana Hammer from excompressum recipe
 event.remove({id: "excompressum:mana_hammer"})
 
-//Spawn egg recipes
+// Spawn egg recipes
+
+// Skeleton spawn egg
+event.shaped("minecraft:skeleton_spawn_egg",[
+    " A ",
+    "BCD",
+    " A "
+],{
+    A:"minecraft:bone",
+    B:"minecraft:bow",
+    C:"minecraft:egg",
+    D:"minecraft:light_gray_dye"
+})
+
 //Wither Skeleton
 event.shaped("minecraft:wither_skeleton_spawn_egg", [
     "ABA",
@@ -577,6 +590,7 @@ event.shaped("minecraft:wither_skeleton_spawn_egg", [
   D: "minecraft:coal_block",
   E: "minecraft:skeleton_spawn_egg"
 })
+
 //piglins
 event.shaped("minecraft:zombified_piglin_spawn_egg", [
     "ABA",
@@ -589,6 +603,7 @@ event.shaped("minecraft:zombified_piglin_spawn_egg", [
   D: "minecraft:vine",
   E: "minecraft:zombie_spawn_egg"
 })
+
 event.remove({id: "thermal:lightning_charge/zombified_piglin_from_pig"})
 event.shaped("minecraft:piglin_spawn_egg", [
     " A ",
@@ -601,6 +616,7 @@ event.shaped("minecraft:piglin_spawn_egg", [
   D: "minecraft:gold_block",
   E: "minecraft:zombified_piglin_spawn_egg"
 })
+
 event.shaped("minecraft:piglin_brute_spawn_egg", [
     " A ",
     "BAC",
@@ -611,6 +627,7 @@ event.shaped("minecraft:piglin_brute_spawn_egg", [
   C: "minecraft:gold_block",
   D: "minecraft:piglin_spawn_egg"
 })
+
 //ghast
 event.shaped("minecraft:ghast_spawn_egg", [
     "ABA",
@@ -622,6 +639,7 @@ event.shaped("minecraft:ghast_spawn_egg", [
   C: "minecraft:fire_charge",
   D: "minecraft:egg"
 })
+
 //Zoglin and Hoglin
 event.shaped("minecraft:zoglin_spawn_egg", [
     "ABA",
@@ -633,6 +651,7 @@ event.shaped("minecraft:zoglin_spawn_egg", [
   C: "minecraft:pig_spawn_egg",
   D: "minecraft:vine"
 })
+
 event.shaped("minecraft:hoglin_spawn_egg", [
     " A ",
     "ABA",
@@ -641,6 +660,7 @@ event.shaped("minecraft:hoglin_spawn_egg", [
   A: "minecraft:leather",
   B: "minecraft:zoglin_spawn_egg",
 })
+
 //slime
 event.shaped("minecraft:slime_spawn_egg", [
     "CAC",

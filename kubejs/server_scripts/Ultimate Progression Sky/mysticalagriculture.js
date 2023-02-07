@@ -120,7 +120,7 @@ onEvent('recipes', (event) => {
             })
         }
 
-    const EssenceRemove = [
+    const Remove = [
         'iapmekanism:copper',
         'iapb:manasteel',
         'iapb:refined_glowstone',
@@ -149,9 +149,13 @@ onEvent('recipes', (event) => {
         'mysticalagriculture:essence/mekanism/refined_glowstone_ingot',
         'mysticalagriculture:essence/thermal/enderium_ingot',
         'mysticalagriculture:essence/botania/terrasteel_ingot',
+        'mysticalagradditions:nether_star_crux',
+        'mysticalagradditions:awakened_draconium_crux',
+        'mysticalagradditions:dragon_egg_crux',
+        'mysticalagradditions:nitro_crystal_crux'
         ];
 
-        EssenceRemove.forEach((id) => {
+        Remove.forEach((id) => {
         event.remove({ id: id });
     })
     //changing crux recipes
