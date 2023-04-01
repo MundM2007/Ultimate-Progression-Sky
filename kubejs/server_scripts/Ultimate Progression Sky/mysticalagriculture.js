@@ -120,7 +120,7 @@ onEvent('recipes', (event) => {
             })
         }
 
-    const Remove = [
+    const EssenceRemove = [
         'iapmekanism:copper',
         'iapb:manasteel',
         'iapb:refined_glowstone',
@@ -155,9 +155,9 @@ onEvent('recipes', (event) => {
         'mysticalagradditions:nitro_crystal_crux'
         ];
 
-        Remove.forEach((id) => {
+        EssenceRemove.forEach((id) => {
         event.remove({ id: id });
-    })
+    });
     //changing crux recipes
     event.shaped("mysticalagradditions:nether_star_crux", [
         "ABA",

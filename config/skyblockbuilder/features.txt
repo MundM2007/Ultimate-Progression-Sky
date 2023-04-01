@@ -444,7 +444,6 @@ byg:willow_tree4
 byg:zelkova_tree1
 byg:zelkova_tree2
 byg:zelkova_tree3
-alexsmobs:leafcutter_hill
 farmersdelight:rice
 simplefarming:fruit_tree
 simplefarming:berry_bush

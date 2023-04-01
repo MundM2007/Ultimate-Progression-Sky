@@ -292,7 +292,6 @@ event.custom({
     item: "emendatusenigmatica:constantan_ingot",
     count: 2
 }})
-
 // photovolatic cell IV
 event.custom({
   type: "silents_mechanisms:alloy_smelting",
@@ -313,4 +312,57 @@ event.custom({
     count: 1
   }
 })
+
+//smithing automated
+event.shaped("metalbarrels:netherite_barrel",[
+    "BCB"
+],{
+    B: "minecraft:netherite_ingot",
+    C: "metalbarrels:obsidian_barrel"
+})
+
+
+// remove recipe allowing 1 tin ore to 9 tin ingots
+event.remove({id: "projectred-exploration:tin_from_block"})
+
+// add grinder recipes for all variants of charged certus quartz
+event.custom({
+  type: "appliedenergistics2:grinder",
+  input: ingredient.of("#forge:ores/charged_certus_quartz").toJson(),
+  result: {
+    primary: item.of("appliedenergistics2:certus_quartz_dust", 2).toResultJson(),
+  },
+  turns: 4
+})
+
+// add crushing wheel recipes for all variants of certus quartz and charged certus quartz
+event.remove({id: "create:compat/ae2/crushing/certus_ore"})
+event.recipes.createCrushing([
+  "2x appliedenergistics2:certus_quartz_crystal",
+  item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
+  item.of("minecraft:cobblestone").withChance(0.12)],
+  "#forge:ores/certus_quartz")
+event.remove({id: "create:compat/ae2/crushing/charged_certus_ore"})
+event.recipes.createCrushing([
+  "2x appliedenergistics2:certus_quartz_crystal",
+  item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
+  item.of("minecraft:cobblestone").withChance(0.12)],
+  "#forge:ores/charged_certus_quartz")
+
+// add enrichment chamber recipes for all variants of certus quartz and charged certus quartz
+event.remove({id: "mekanism:compat/appliedenergistics2/certus_ore_to_crystal"})
+event.recipes.mekanismEnriching("4x appliedenergistics2:certus_quartz_crystal", "#forge:ores/certus_quartz")
+event.remove({id: "mekanism:compat/appliedenergistics2/charged_certus_ore_to_crystal"})
+event.recipes.mekanismEnriching("4x appliedenergistics2:certus_quartz_crystal", "#forge:ores/charged_certus_quartz")
+
+// add pulverizer recipes for all variants of certus quartz and charged certus quartz
+event.remove({id: "thermal:compat/appliedenergistics2/pulverizer_ae2_certus_quartz_ore"})
+event.recipes.thermal.pulverizer("2x appliedenergistics2:certus_quartz_crystal", "#forge:ores/certus_quartz")
+event.remove({id: "thermal:compat/appliedenergistics2/pulverizer_ae2_charged_certus_quartz_ore"})
+event.recipes.thermal.pulverizer("2x appliedenergistics2:certus_quartz_crystal", "#forge:ores/charged_certus_quartz")
+
+// remove draconic machinery recipes
+event.remove({id: "draconicmachinery:chunk_loader_rcp"})
+event.remove({id: "draconicmachinery:anchor_rcp"})
+event.remove({id: "draconicmachinery:redstone_card_rcp"})
 })

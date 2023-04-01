@@ -207,6 +207,17 @@ for(let drops of dirt_water_sieve_drops.entries()){
   sieve("minecraft:dirt",drops[0],"string",drops[1],null,null,null,null,true)
 }
 
+//Waterlogged Coarse Dirt Sieve drop | output, chance
+const coarse_dirt_water_sieve_drops = new Map([
+  ["farmersdelight:cabbage_seeds", 0.1],
+  ["farmersdelight:tomato_seeds", 0.1],
+  ["farmersdelight:rice", 0.1],
+  ["farmersdelight:onion", 0.1],
+])
+for(let drops of coarse_dirt_water_sieve_drops.entries()){
+  sieve("minecraft:coarse_dirt",drops[0],"string",drops[1],null,null,null,null,true)
+}
+
 //String Mesh
  sieve("minecraft:gravel","minecraft:flint","string",0.4,"diamond",0.2,null,null,null)
  sieve("minecraft:gravel","exnihilosequentia:piece_iron","string",0.4,"diamond",0.2,null,null,null)
@@ -454,7 +465,7 @@ remove_meshes.forEach((id) => {
 //Flint
 event.recipes.createMixing("exnihilosequentia:mesh_flint", [
   "exnihilosequentia:mesh_string",
-  "6x minecraft:flint",
+  "6x minecraft:flint"
 ]).heated()
 
 //Iron
@@ -564,7 +575,9 @@ event.shaped("exnihilosequentia:doll_blitz", [
 //remove Mana Hammer from excompressum recipe
 event.remove({id: "excompressum:mana_hammer"})
 
+//
 // Spawn egg recipes
+//
 
 // Skeleton spawn egg
 event.shaped("minecraft:skeleton_spawn_egg",[
@@ -937,25 +950,6 @@ event.custom({
   ],
   processingTime: 150
 })
-event.custom({
-  type: "create:milling",
-  ingredients: [{item: "appliedenergistics2:sky_stone_block"}],
-  results: [
-    {item: "exnihiloae:crushed_skystone"}
-  ],
-  processingTime: 150
-})
-event.custom({
-  type: "mekanism:crushing",
-  input:{item: "appliedenergistics2:sky_stone_block"},
-  output:{item: "exnihiloae:crushed_skystone"}
-})
-event.custom({
-  type: "thermal:pulverizer",
-  ingredient: {item: "appliedenergistics2:sky_stone_block"},
-  result: [{item: "exnihiloae:crushed_skystone"}],
-  experience: 0.5
-})
 
 //removing nether portal pet recipe
 event.remove({id: "inventorypets:nether_portal_pet"})
@@ -1099,6 +1093,7 @@ event.remove({type: "minecraft:crafting_shaped", output: "9x fluxnetworks:flux_d
 
 //removing old marble recipe
 event.remove({id: "enviromats:blocks/craft_raw/marble"})
+
 //Adding new Marble recipes
 event.shaped("8x quark:marble",[
     "AAA",
@@ -1125,4 +1120,7 @@ event.shaped("8x enviromats:marble",[
     A:"chisel:marble/raw",
     B:"minecraft:quartz"
 })
+
+
+
 })

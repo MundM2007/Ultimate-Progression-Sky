@@ -92,7 +92,7 @@ craftingTable.addShaped("envirotech.xerothium_void_miner_ccu/skyblock", <item:en
 	[<item:envirocore:interdimensional_modifier>, <item:envirotech:nanorite_void_miner_ccu>, <item:envirocore:interdimensional_modifier>]
 ]);
 
-mods.jei.JEI.addInfo(<item:naturesaura:nature_altar>, ["Don't build the crimson altar it will not work anywhere apart from the nether which you cannot get to. All the crimson altar recipeshave been ported to the natural altar"]);
+mods.jei.JEI.addInfo(<item:naturesaura:nature_altar>, ["Don't build the crimson altar it will not work anywhere apart from the nether which you cannot get to. All the crimson altar recipes have been ported to the natural altar"]);
 mods.jei.JEI.addInfo(<item:minecraft:dirt>, [
   "This is a list of everything that dirt drops when being sieved with a string mesh or higher:",
   "Wheat Seeds, 0.2",
