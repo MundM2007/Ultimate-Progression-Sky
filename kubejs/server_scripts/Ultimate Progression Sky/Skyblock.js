@@ -230,7 +230,7 @@ for(let drops of coarse_dirt_water_sieve_drops.entries()){
  sieve("exnihilosequentia:dust","minecraft:bone_meal","string",0.3,"diamond",0.15,null,null,null)
  sieve("exnihilosequentia:dust","exnihilosequentia:piece_iron","string",0.05,"diamond",0.025,null,null,null)
  
- sieve("exnihilosequentia:crushed_netherrack","minecraft:blaze_powder","string",0.15,"diamond",0.075,null,null,null)
+ sieve("exnihilosequentia:crushed_netherrack","minecraft:blaze_powder","string",0.25,"diamond",0.125,null,null,null)
  
  sieve("minecraft:soul_sand","minecraft:nether_wart","string",0.05,"diamond",0.025,null,null,null)
  
@@ -1007,14 +1007,6 @@ event.custom({
 })
 event.custom({
   type: "exnihilosequentia:heat",
-  block: "create:blaze_burner",
-  amount: 9,
-  state: {
-    blaze: "seething"
-  }
-})
-event.custom({
-  type: "exnihilosequentia:heat",
   block: "projecte:dark_matter_block",
   amount: 10
 })
@@ -1022,6 +1014,14 @@ event.custom({
   type: "exnihilosequentia:heat",
   block: "projecte:red_matter_block",
   amount: 12
+})
+event.custom({
+  type: "exnihilosequentia:heat",
+  block: "create:blaze_burner",
+  amount: 12,
+  state: {
+    blaze: "seething"
+  }
 })
 
 //adding a recipe for the pillager spawn egg
@@ -1120,7 +1120,8 @@ event.shaped("8x enviromats:marble",[
     A:"chisel:marble/raw",
     B:"minecraft:quartz"
 })
-
-
-
+//adding sand recipes to create milling
+event.recipes.createMilling("minecraft:sand", "minecraft:gravel")
+//adding Limestone from chisel recipe
+event.shapeless("chisel:limestone/raw", ["create:limestone", "create:limesand"])
 })
