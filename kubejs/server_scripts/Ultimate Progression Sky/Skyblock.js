@@ -139,7 +139,7 @@ const dirt_sieve_drops = new Map([
   ["exnihilosequentia:seed_carrot", 0.05],
   ["exnihilosequentia:seed_fern", 0.01],
   ["exnihilosequentia:seed_cactus", 0.04],
-  ["exnihilosequentia:seed_grass", 0.03],
+  ["exnihilosequentia:grass_seeds", 0.03],
   ["exnihilosequentia:seed_potato", 0.05],
   ["exnihilosequentia:seed_sugarcane", 0.04],
   ["exnihilosequentia:seed_bamboo", 0.03],
