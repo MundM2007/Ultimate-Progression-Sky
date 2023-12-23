@@ -313,15 +313,6 @@ onEvent('recipes', event => {
       }
     })
 
-    //smithing automated
-    event.shaped("metalbarrels:netherite_barrel",[
-        "BCB"
-    ],{
-        B: "minecraft:netherite_ingot",
-        C: "metalbarrels:obsidian_barrel"
-    })
-
-
     // remove recipe allowing 1 tin ore to 9 tin ingots
     event.remove({id: "projectred-exploration:tin_from_block"})
 
@@ -379,6 +370,9 @@ onEvent('recipes', event => {
 
     //smithing automated
     event.forEachRecipe({type: 'minecraft:smithing'}, recipe => {
+        if(Item.of(recipe.originalRecipeResult).id == 'supplementaries:safe') return
+        if(Item.of(recipe.originalRecipeResult).id == 'sophisticatedbackpacks:netherite_backpack') return
+        if(Item.of(recipe.originalRecipeResult).id == 'exnihilosequentia:mesh_netherite') return
         event.shaped(recipe.originalRecipeResult, ["ABA"], {A: recipe.json.get("addition"), B: recipe.json.get("base")}).id(recipe.getOrCreateId() + "/in_crafting_table")
     })
     event.smithing("pickletweaks:emerald_sword", "minecraft:diamond_sword", "minecraft:emerald")
@@ -424,4 +418,23 @@ onEvent('recipes', event => {
     event.shaped("mekanismtools:refined_obsidian_hoe", ["ABA"], {A: "mekanism:block_refined_obsidian", B: "minecraft:netherite_hoe"})
     event.smithing("mekanismtools:refined_obsidian_shovel", "minecraft:netherite_shovel", "mekanism:block_refined_obsidian")
     event.shaped("mekanismtools:refined_obsidian_shovel", ["ABA"], {A: "mekanism:block_refined_obsidian", B: "minecraft:netherite_shovel"})
+        
+    //fix zombified piglin seeds recipe
+    event.custom({
+        type: "mysticalagriculture:infusion",
+        input: Item.of("mysticalagriculture:soulium_seed_base"),
+        ingredients: [
+            Item.of('mysticalagriculture:soul_jar', '{Souls:10.0d,Type:"mysticalcustomization:zombified_piglin"}').toJson(),
+            Item.of("mysticalagriculture:tertium_essence"),
+            Item.of('mysticalagriculture:soul_jar', '{Souls:10.0d,Type:"mysticalcustomization:zombified_piglin"}').toJson(),
+            Item.of("mysticalagriculture:tertium_essence"),
+            Item.of('mysticalagriculture:soul_jar', '{Souls:10.0d,Type:"mysticalcustomization:zombified_piglin"}').toJson(),
+            Item.of("mysticalagriculture:tertium_essence"),
+            Item.of('mysticalagriculture:soul_jar', '{Souls:10.0d,Type:"mysticalcustomization:zombified_piglin"}').toJson(),
+            Item.of("mysticalagriculture:tertium_essence")
+        ],
+        result: {
+            item: "mysticalagriculture:zombified_piglin_seeds"
+        }
+    })
 })
