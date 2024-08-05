@@ -413,7 +413,6 @@
 			title: "Mechanical Crafter"
 			x: 11.5d
 			y: -1.0d
-			description: ["You can combine the Crafters without using a Create Wrench by looking onto another already placed Crafter A and placing the Crafter B \"on the side\". This will point Crafter B to Crafter A."]
 			dependencies: [
 				"3FD2F2DC82B713E2"
 				"51CE60204EB19262"
@@ -2154,6 +2153,7 @@
 		{
 			x: 4.5d
 			y: -2.0d
+			description: ["The Simple Shop is useless in Singleplayer. In Multiplayer it can be used to sell items to other players."]
 			dependencies: ["79AF2B1DD5ADD008"]
 			id: "60CB3A6F5D72EB45"
 			tasks: [{

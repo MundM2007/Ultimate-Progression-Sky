@@ -21,8 +21,8 @@ onEvent('jei.hide.items', event => {
         'thermal:lapis_gear',
         'thermal:electrum_gear',
         'thermal:bronze_gear'
-    ];
-        jeihide.forEach((entry) => {
+    ]
+    jeihide.forEach((entry) => {
         event.hide(entry);
-    });
+    })
 })

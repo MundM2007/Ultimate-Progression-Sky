@@ -1,65 +1,65 @@
 onEvent('recipes', event => {
     event.custom({
         "input": [
-          {
-            "item": "minecraft:yellow_dye"
-          },
-          {
-            "item": "minecraft:yellow_dye"
-          },
-          {
-            "item": "minecraft:yellow_dye"
-          },
-          {
-            "item": "minecraft:redstone"
-          },
-          {
-            "item": "minecraft:redstone"
-          },
-          {
-            "item": "minecraft:redstone"
-          },
-          {
-            "item": "minecraft:gunpowder"
-          },
-          {
-            "item": "minecraft:gunpowder"
-          }
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:gunpowder"
+            },
+            {
+                "item": "minecraft:gunpowder"
+            }
         ],
         "inputFluid": "{FluidName:\"tconstruct:molten_gold\",Amount:576}",
         "processingTime": 100,
         "output": {
-          "item": "extendedcrafting:luminessence",
-          "count": 1
+            "item": "extendedcrafting:luminessence",
+            "count": 1
         },
         "type": "industrialforegoing:dissolution_chamber",
     })
     event.custom({
         "input": [
-          {
-            "item": "minecraft:yellow_dye"
-          },
-          {
-            "item": "minecraft:yellow_dye"
-          },
-          {
-            "item": "minecraft:yellow_dye"
-          },
-          {
-            "item": "minecraft:redstone"
-          },
-          {
-            "item": "minecraft:redstone"
-          },
-          {
-            "item": "minecraft:redstone"
-          },
-          {
-            "item": "minecraft:gunpowder"
-          },
-          {
-            "item": "minecraft:gunpowder"
-          }
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:gunpowder"
+            },
+            {
+                "item": "minecraft:gunpowder"
+            }
         ],
         "inputFluid": "{FluidName:\"emendatusenigmatica:molten_gold\",Amount:576}",
         "processingTime": 100,
@@ -108,20 +108,20 @@ onEvent('recipes', event => {
         'createaddition:rolling/gold_ingot',
         'createaddition:rolling/iron_ingot',
         'createaddition:rolling/brass_ingot'
-        ];
-        Recipe_Remove.forEach((id) => {
-            event.remove({ id: id });
-        })
+    ];
+    Recipe_Remove.forEach((id) => {
+        event.remove({ id: id });
+    })
         
     //Silent's Mechanism refining using immersive oil
     event.custom({
-      type: "silents_mechanisms:refining",
-      process_time: 600,
-      ingredient: {fluid: "immersivepetroleum:oil"},
-      results: [
-      {fluid: "silents_mechanisms:diesel",amount: 1000},
-      {fluid: "silents_mechanisms:ethane",amount: 1000}
-      ]
+        type: "silents_mechanisms:refining",
+        process_time: 600,
+        ingredient: {fluid: "immersivepetroleum:oil"},
+        results: [
+            {fluid: "silents_mechanisms:diesel",amount: 1000},
+            {fluid: "silents_mechanisms:ethane",amount: 1000}
+        ]
     })
 
     //Thermal bitumen in centrifuge using immersive oil
@@ -133,19 +133,19 @@ onEvent('recipes', event => {
     //changing pulse centrifuge ender dust recipe to ender dust from emendatusenigmatica
     event.remove({id: "appliedenergistics2:centrifuge/ender_dust"})
     event.custom({
-      type: "lazierae2:centrifuge",
-      process_time: 80,
-      energy_cost: 800,
-      output: {item: "emendatusenigmatica:ender_dust"},
-      input: [{tag: "forge:ender_pearls"}]
+        type: "lazierae2:centrifuge",
+        process_time: 80,
+        energy_cost: 800,
+        output: {item: "emendatusenigmatica:ender_dust"},
+        input: [{tag: "forge:ender_pearls"}]
     })
 
     //changing Silent's mechanisms enderium crushing recipe to give emendatusenigmatica dust
     event.custom({
-      type: "silents_mechanisms:crushing",
-      process_time: 200,
-      ingredient: {tag: "forge:ingots/enderium"},
-      results: [{item: "emendatusenigmatica:enderium_dust"}]
+        type: "silents_mechanisms:crushing",
+        process_time: 200,
+        ingredient: {tag: "forge:ingots/enderium"},
+        results: [{item: "emendatusenigmatica:enderium_dust"}]
     })
 
     //removing old marble recipes
@@ -273,44 +273,49 @@ onEvent('recipes', event => {
 
     // adding constantan_ingot recipe in alloy smelter
     event.custom({
-      type: "silents_mechanisms:alloy_smelting",
-      process_time: 400,
-      ingredients: [{
-          value: [
-            {tag: "forge:ingots/nickel"},
-            {tag: "silents_mechanisms:chunks/nickel"},
-            {tag: "forge:dusts/nickel"}],
-          count: 1
-        },{
-          value: [
-            {tag: "forge:ingots/copper"},
-            {tag: "silents_mechanisms:chunks/copper"},
-            {tag: "forge:dusts/copper"}],
-          count: 1
-        }],
-      result: {
-        item: "emendatusenigmatica:constantan_ingot",
-        count: 2
-    }})
+        type: "silents_mechanisms:alloy_smelting",
+        process_time: 400,
+        ingredients: [
+            {
+                value: [
+                    {tag: "forge:ingots/nickel"},
+                    {tag: "silents_mechanisms:chunks/nickel"},
+                    {tag: "forge:dusts/nickel"}
+                ],
+                count: 1
+            },{
+                value: [
+                    {tag: "forge:ingots/copper"},
+                    {tag: "silents_mechanisms:chunks/copper"},
+                    {tag: "forge:dusts/copper"}
+                ],
+                count: 1
+            }
+        ],
+        result: {
+            item: "emendatusenigmatica:constantan_ingot",
+            count: 2
+        }
+    })
     // photovolatic cell IV
     event.custom({
-      type: "silents_mechanisms:alloy_smelting",
-      process_time: 400,
-      ingredients: [{
-          value: [{item: "solarflux:photovoltaic_cell_3"}],
-          count: 1
-        },{
-          value: [{item: "silentgear:azure_electrum_ingot"}],
-          count: 1
-        },{
-          value: [{item: "silentgear:blaze_gold_ingot"}],
-          count: 1
+        type: "silents_mechanisms:alloy_smelting",
+        process_time: 400,
+        ingredients: [{
+                value: [{item: "solarflux:photovoltaic_cell_3"}],
+                count: 1
+            },{
+                value: [{item: "silentgear:azure_electrum_ingot"}],
+                count: 1
+            },{
+                value: [{item: "silentgear:blaze_gold_ingot"}],
+                count: 1
+            }
+        ],
+        result: {
+            item: "solarflux:photovoltaic_cell_4",
+            count: 1
         }
-      ],
-      result: {
-        item: "solarflux:photovoltaic_cell_4",
-        count: 1
-      }
     })
 
     // remove recipe allowing 1 tin ore to 9 tin ingots
@@ -318,27 +323,29 @@ onEvent('recipes', event => {
 
     // add grinder recipes for all variants of charged certus quartz
     event.custom({
-      type: "appliedenergistics2:grinder",
-      input: ingredient.of("#forge:ores/charged_certus_quartz").toJson(),
-      result: {
-        primary: item.of("appliedenergistics2:certus_quartz_dust", 2).toResultJson(),
-      },
-      turns: 4
+        type: "appliedenergistics2:grinder",
+        input: ingredient.of("#forge:ores/charged_certus_quartz").toJson(),
+        result: {
+            primary: item.of("appliedenergistics2:certus_quartz_dust", 2).toResultJson(),
+        },
+        turns: 4
     })
 
     // add crushing wheel recipes for all variants of certus quartz and charged certus quartz
     event.remove({id: "create:compat/ae2/crushing/certus_ore"})
     event.recipes.createCrushing([
-      "2x appliedenergistics2:certus_quartz_crystal",
-      item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
-      item.of("minecraft:cobblestone").withChance(0.12)],
-      "#forge:ores/certus_quartz")
+        "2x appliedenergistics2:certus_quartz_crystal",
+        item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
+        item.of("minecraft:cobblestone").withChance(0.12)],
+        "#forge:ores/certus_quartz"
+    )
     event.remove({id: "create:compat/ae2/crushing/charged_certus_ore"})
     event.recipes.createCrushing([
-      "2x appliedenergistics2:certus_quartz_crystal",
-      item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
-      item.of("minecraft:cobblestone").withChance(0.12)],
-      "#forge:ores/charged_certus_quartz")
+        "2x appliedenergistics2:certus_quartz_crystal",
+        item.of("appliedenergistics2:certus_quartz_dust").withChance(0.25),
+        item.of("minecraft:cobblestone").withChance(0.12)],
+        "#forge:ores/charged_certus_quartz"
+    )
 
     // add enrichment chamber recipes for all variants of certus quartz and charged certus quartz
     event.remove({id: "mekanism:compat/appliedenergistics2/certus_ore_to_crystal"})
@@ -437,4 +444,8 @@ onEvent('recipes', event => {
             item: "mysticalagriculture:zombified_piglin_seeds"
         }
     })
+
+    // (certus) quartz dust to gem recipes
+    event.smelting("minecraft:quartz", "emendatusenigmatica:quartz_dust")
+    event.smelting("appliedenergistics2:certus_quartz_crystal", "appliedenergistics2:certus_quartz_dust")
 })

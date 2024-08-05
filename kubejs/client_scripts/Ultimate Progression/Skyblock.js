@@ -1,3 +1,55 @@
 onEvent('jei.information', event => {
-  event.add('create:blaze_burner', ['The blaze burner can be used as a crucible heat source you can find the values bellow:', 'Not fueled: 4x', 'fading: 6x', 'heated: 7x', 'superheated: 9x'])
+    event.add('create:blaze_burner', ['The blaze burner can be used as a crucible heat source you can find the values bellow:', 'Not fueled: 4x', 'fading: 6x', 'heated: 7x', 'superheated: 9x'])
+    Ingredient.of('#minecraft:leaves').itemIds.forEach((item) => {
+        event.add(item, [
+            'This is a list of everything that leaves drops when being sieved with a waterlogged string mesh or higher:', 
+            'Avocado Sapling, 0.01',
+            'Candlenut Sapling, 0.01',
+            'Cherry Sapling, 0.01',
+            'Chestnut Sapling, 0.01',
+            'Gooseberry Sapling, 0.01',
+            'Lemon Sapling, 0.01',
+            'Nutmeg Sapling, 0.01',
+            'Orange Sapling, 0.01',
+            'Peach Sapling, 0.01',
+            'Pear Sapling, 0.01',
+            'Plum Sapling, 0.01',
+            'Walnut Sapling, 0.01',
+            'Hazelnut Sapling, 0.01',
+            'Pawpaw Sapling, 0.01',
+            'Soursop Sapling, 0.01',
+            'Almond Sapling, 0.01',
+            'Apricot Sapling, 0.01',
+            'Banana Sapling, 0.01',
+            'Cashew Sapling, 0.01',
+            'Cinnamon Sapling, 0.01',
+            'Coconut Sapling, 0.01',
+            'Date Sapling, 0.01',
+            'Dragonfruit Sapling, 0.01',
+            'Durian Sapling, 0.01',
+            'Fig Sapling, 0.01',
+            'Grapefruit Sapling, 0.01',
+            'Lime Sapling, 0.01',
+            'Mango Sapling, 0.01',
+            'Olive Sapling, 0.01',
+            'Papaya Sapling, 0.01',
+            'Pecan Sapling, 0.01',
+            'Peppercorn Sapling, 0.01',
+            'Persimmon Sapling, 0.01',
+            'Pistachio Sapling, 0.01',
+            'Pomegranate Sapling, 0.01',
+            'Starfruit Sapling, 0.01',
+            'Vanillabean Sapling, 0.01',
+            'Breadfruit Sapling, 0.01',
+            'Guava Sapling, 0.01',
+            'Jackfruit Sapling, 0.01',
+            'Lychee Sapling, 0.01',
+            'Passionfruit Sapling, 0.01',
+            'Rambutan Sapling, 0.01',
+            'Tamarind Sapling, 0.01',
+            'Maple Sapling, 0.01',
+            'Pinenut Sapling, 0.01'
+        ])
+    })
+    
 })

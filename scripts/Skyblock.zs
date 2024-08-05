@@ -122,4 +122,5 @@ mods.jei.JEI.addInfo(<item:minecraft:dirt>, [
   "Granite Pebble, 0.9",
   "Diorite Pebble, 0.9",
   "Andesite Pebble, 0.9, 0.75",
-  "Stone Pebble, 0.9, 0.75, 0.6"]);
+  "Stone Pebble, 0.9, 0.75, 0.6"]
+);

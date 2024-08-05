@@ -773,5 +773,145 @@
 				title: "Seeds"
 			}]
 		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["Right-Clicking with this item on dirt transform it into mycelium. You can then place the barrel on top of that block to make witchwater"]
+			dependencies: ["0C534374CD48A5E2"]
+			id: "37D3E07B533589F4"
+			tasks: [{
+				id: "0B03D280AC6C8933"
+				type: "item"
+				item: "exnihilosequentia:ancient_spores"
+			}]
+			rewards: [{
+				id: "39B60FF321050BA9"
+				type: "item"
+				item: "decimal_coins:coin_1"
+			}]
+		}
+		{
+			title: "Baits"
+			x: -8.5d
+			y: 0.5d
+			description: ["Baits allow you to spawn a lot of mods, if meeting certain requirements around them. These include Grass, Logs and Saplings."]
+			dependencies: ["0C534374CD48A5E2"]
+			id: "3B5722722BB8F087"
+			tasks: [
+				{
+					id: "0C001EB7E57D2F5E"
+					type: "item"
+					item: "exnihilosequentia:grass_seeds"
+				}
+				{
+					id: "786EC620FF2C95A9"
+					type: "item"
+					title: "Any Bait"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "excompressum:baits"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "23E4EA0DDD386254"
+				type: "item"
+				item: "decimal_coins:coin_1"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			description: ["For some items it may be required to build a mob farm. This can be easily done after you've got a cobblestone generator to get enough blocks."]
+			dependencies: ["70690C2BDE525F57"]
+			id: "30AD7E83F46AFBCA"
+			tasks: [{
+				id: "1B8C7E628CBB9506"
+				type: "checkmark"
+				title: "Mob Farm"
+			}]
+		}
+		{
+			title: "Spawn Eggs"
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["3B5722722BB8F087"]
+			id: "4A415B769261BA42"
+			tasks: [
+				{
+					id: "27A8292A34106323"
+					type: "item"
+					item: "excompressum:chicken_bait"
+				}
+				{
+					id: "1C9D3C6A459A4146"
+					type: "item"
+					item: "minecraft:egg"
+				}
+				{
+					id: "3145B51269DAF0FA"
+					type: "item"
+					item: "minecraft:skeleton_spawn_egg"
+				}
+				{
+					id: "1BA5B41AFEF5477D"
+					type: "item"
+					item: "minecraft:wither_skeleton_spawn_egg"
+				}
+				{
+					id: "0BF60EF14FD52CCD"
+					type: "item"
+					item: "minecraft:zombified_piglin_spawn_egg"
+				}
+				{
+					id: "79E6FE731FA4A270"
+					type: "item"
+					item: "minecraft:piglin_spawn_egg"
+				}
+				{
+					id: "7F91BDA2407A5EB2"
+					type: "item"
+					item: "minecraft:piglin_brute_spawn_egg"
+				}
+				{
+					id: "7D76F1866E02465F"
+					type: "item"
+					item: "minecraft:ghast_spawn_egg"
+				}
+				{
+					id: "3684F84240017244"
+					type: "item"
+					item: "minecraft:zoglin_spawn_egg"
+				}
+				{
+					id: "72D4A11C03F30F07"
+					type: "item"
+					item: "minecraft:hoglin_spawn_egg"
+				}
+				{
+					id: "69C66B8F46D303B3"
+					type: "item"
+					item: "minecraft:slime_spawn_egg"
+				}
+				{
+					id: "484FE3E1999373B3"
+					type: "item"
+					item: "minecraft:pillager_spawn_egg"
+				}
+				{
+					id: "62439C769D6E9CB0"
+					type: "item"
+					item: "minecraft:elder_guardian_spawn_egg"
+				}
+			]
+			rewards: [{
+				id: "40CDDB63F62A1A2F"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
 	]
 }
