@@ -436,7 +436,7 @@
 		{
 			title: "20x Niotic Crystal"
 			icon: "powah:crystal_niotic"
-			x: -4.5d
+			x: -2.0d
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["731B5DB0F8A693E6"]
@@ -458,7 +458,7 @@
 		{
 			title: "20x Spirited Crystal"
 			icon: "powah:crystal_spirited"
-			x: -3.5d
+			x: -1.0d
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["79D7A7BC76EA68D0"]
@@ -480,7 +480,7 @@
 		{
 			title: "120x Nitro Crystal"
 			icon: "powah:crystal_nitro"
-			x: -2.5d
+			x: 0.0d
 			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["2BFB87D8E395F92B"]
@@ -724,7 +724,7 @@
 		{
 			title: "140x Buckets of Lava"
 			icon: "minecraft:lava_bucket"
-			x: -1.0d
+			x: 1.5d
 			y: 4.5d
 			dependencies: ["729C1EF45A153B7F"]
 			repeatable: true
@@ -758,7 +758,7 @@
 		{
 			title: "140x Buckets of Polyethylene"
 			icon: "silents_mechanisms:polyethylene_bucket"
-			x: 4.0d
+			x: 6.5d
 			y: 4.5d
 			dependencies: ["77B7D2B9F6EBAD36"]
 			repeatable: true
@@ -793,7 +793,7 @@
 		{
 			title: "140x Buckets of Latex"
 			icon: "industrialforegoing:latex_bucket"
-			x: 0.5d
+			x: 3.0d
 			y: 4.5d
 			dependencies: ["64950E39BDA6F0A0"]
 			repeatable: true
@@ -828,7 +828,7 @@
 		{
 			title: "70x Buckets of Pink Slime"
 			icon: "industrialforegoing:pink_slime_bucket"
-			x: 1.5d
+			x: 4.0d
 			y: 4.5d
 			dependencies: ["07FDB2ADF7A64D06"]
 			repeatable: true
@@ -863,7 +863,7 @@
 		{
 			title: "10x Buckets of Ether Gas"
 			icon: "industrialforegoing:ether_gas_bucket"
-			x: 2.5d
+			x: 5.0d
 			y: 4.5d
 			dependencies: ["5FA459D4205EC62B"]
 			repeatable: true
@@ -1368,7 +1368,7 @@
 		{
 			title: "2x Niotic Crystal"
 			icon: "powah:crystal_niotic"
-			x: -4.5d
+			x: -2.0d
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["731B5DB0F8A693E6"]
@@ -1390,7 +1390,7 @@
 		{
 			title: "2x Spirited Crystal"
 			icon: "powah:crystal_spirited"
-			x: -3.5d
+			x: -1.0d
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["79D7A7BC76EA68D0"]
@@ -1412,7 +1412,7 @@
 		{
 			title: "12x Nitro Crystal"
 			icon: "powah:crystal_nitro"
-			x: -2.5d
+			x: 0.0d
 			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["2BFB87D8E395F92B"]
@@ -1654,7 +1654,7 @@
 		{
 			title: "14x Buckets of Lava"
 			icon: "minecraft:lava_bucket"
-			x: -1.0d
+			x: 1.5d
 			y: 3.5d
 			dependencies: ["729C1EF45A153B7F"]
 			repeatable: true
@@ -1687,7 +1687,7 @@
 		{
 			title: "14x Buckets of Polyethylene"
 			icon: "silents_mechanisms:polyethylene_bucket"
-			x: 4.0d
+			x: 6.5d
 			y: 3.5d
 			dependencies: ["77B7D2B9F6EBAD36"]
 			repeatable: true
@@ -1720,7 +1720,7 @@
 		{
 			title: "14x Buckets of Latex"
 			icon: "industrialforegoing:latex_bucket"
-			x: 0.5d
+			x: 3.0d
 			y: 3.5d
 			dependencies: ["64950E39BDA6F0A0"]
 			repeatable: true
@@ -1753,7 +1753,7 @@
 		{
 			title: "7x Buckets of Pink Slime"
 			icon: "industrialforegoing:pink_slime_bucket"
-			x: 1.5d
+			x: 4.0d
 			y: 3.5d
 			dependencies: ["07FDB2ADF7A64D06"]
 			repeatable: true
@@ -1786,7 +1786,7 @@
 		{
 			title: "1x Bucket of Ether Gas"
 			icon: "industrialforegoing:ether_gas_bucket"
-			x: 2.5d
+			x: 5.0d
 			y: 3.5d
 			dependencies: ["5FA459D4205EC62B"]
 			repeatable: true
@@ -1842,8 +1842,8 @@
 		{
 			title: "1x Inscriber Calculation Press"
 			icon: "appliedenergistics2:calculation_processor_press"
-			x: 4.5d
-			y: -1.5d
+			x: 4.0d
+			y: 1.5d
 			dependencies: ["799626B76C7E5509"]
 			repeatable: true
 			id: "79DF6E46DC9331F1"
@@ -1863,8 +1863,8 @@
 		{
 			title: "1x Inscriber Engineering Press"
 			icon: "appliedenergistics2:engineering_processor_press"
-			x: 4.5d
-			y: -0.5d
+			x: 5.0d
+			y: 0.5d
 			dependencies: ["799626B76C7E5509"]
 			repeatable: true
 			id: "77B9EBEB9A4A8652"
@@ -1884,7 +1884,7 @@
 		{
 			title: "1x Inscriber Logic Press"
 			icon: "appliedenergistics2:logic_processor_press"
-			x: 4.5d
+			x: 4.0d
 			y: 0.5d
 			dependencies: ["799626B76C7E5509"]
 			repeatable: true
@@ -1905,7 +1905,7 @@
 		{
 			title: "1x Inscriber Silicon Press"
 			icon: "appliedenergistics2:silicon_press"
-			x: 4.5d
+			x: 5.0d
 			y: 1.5d
 			dependencies: ["799626B76C7E5509"]
 			repeatable: true
@@ -1942,6 +1942,94 @@
 				type: "item"
 				item: "minecraft:emerald"
 				count: 3
+			}]
+		}
+		{
+			title: "4x Blazing Crystal"
+			icon: "powah:crystal_blazing"
+			x: -3.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["7B379775D5D5441F"]
+			repeatable: true
+			id: "152618AE987A6843"
+			tasks: [{
+				id: "3E60685829AB0A76"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3FC99087C9E4D260"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 4
+			}]
+		}
+		{
+			title: "4x Energized Steel"
+			icon: "powah:steel_energized"
+			x: -4.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["0B607A127C214FB3"]
+			repeatable: true
+			id: "466B9893ED93AB36"
+			tasks: [{
+				id: "448DBE28B6F4D0F1"
+				type: "item"
+				item: "decimal_coins:coin_1"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5977DA5E4F5010AC"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 4
+			}]
+		}
+		{
+			title: "40x Blazing Crystal"
+			icon: "powah:crystal_blazing"
+			x: -3.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["7B379775D5D5441F"]
+			repeatable: true
+			id: "10E0B9B627ABA431"
+			tasks: [{
+				id: "5726ACC9DA7F87B5"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "069541BBC1E058F4"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 40
+			}]
+		}
+		{
+			title: "40x Energized Steel"
+			icon: "powah:steel_energized"
+			x: -4.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["0B607A127C214FB3"]
+			repeatable: true
+			id: "40CD22993124606A"
+			tasks: [{
+				id: "17663C5EA10A639E"
+				type: "item"
+				item: "decimal_coins:coin_10"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "725C9D5FECC7C26A"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 40
 			}]
 		}
 	]
